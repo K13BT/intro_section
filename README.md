@@ -9,9 +9,6 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
-  - [Author](#author)
-
-
 
 ### The challenge
 
@@ -23,11 +20,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](.images/screenshot.png)
+![](images/screenshot.png)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://endearing-marigold-b54114.netlify.app/)
 
 
 ### Built with
@@ -36,7 +33,3 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 
-## Author
-
-- Website - (https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
