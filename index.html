@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Intro section with dropdown navigation</title>
+
+</head>
+<body>
+  <header>
+
+    <!-- Desktop header -->
+    <div class="desktop_header">
+      <img src="images/logo.svg" class="logo" alt="logo"/>
+      <nav class="nav_desktop">
+        <div class="nav_item">
+          <button class="featuresBtn">Features
+            <img src="images/icon-arrow-down.svg" alt="icon-arrow-down" class="features_arrow_down"/>
+            <img src="images/icon-arrow-up.svg" alt="icon-arrow-up" class="features_arrow_up display"/>
+          </button>
+          <div class="features display">
+            <div class="features_dropdown dropdown">
+              <a href="/"><img src="images/icon-todo.svg" alt="icon-todo"/>Todo List</a>
+              <a href="/"><img src="images/icon-calendar.svg" alt="icon-calendar"/>Calendar</a>
+              <a href="/"><img src="images/icon-reminders.svg" alt="icon-reminders"/>Reminders</a>
+              <a href="/"><img src="images/icon-planning.svg" alt="icon-planning"/>Planning</a>
+            </div>
+          </div>
+          
+        </div>
+        <div class="nav_item">
+          <button class="companyBtn">Company
+            <img src="images/icon-arrow-down.svg" alt="icon-arrow-down" class="features_arrow_down"/>
+            <img src="images/icon-arrow-up.svg" alt="icon-arrow-up" class="features_arrow_up display"/>
+          </button>
+          <div class="company display">
+            <div class="company_dropdown dropdown">
+              <a href="/">History</a>
+              <a href="/">Our Team</a>
+              <a href="/">Blog</a>
+            </div>
+          </div>
+          
+        </div>
+        <div class="nav_item">
+          <a href="/">Careers</a>
+        </div>
+        <div class="nav_item">
+          <a href="/">About</a>
+        </div>
+      </nav>
+      <div class="logReg">
+        <button class="logBtn">Login</button>
+        <button class="regBtn">Register</button>
+      </div>
+    </div>
+    
+    <!-- Mobile header -->
+    <div class="mobile_header">
+      <div class="mobile_header_items">
+        <img src="images/logo.svg" class="logo" alt="logo"/> 
+          <button class="menu_btn">
+            <img src="images/icon-menu.svg" alt="menu_icon">
+            <img src="images/icon-close-menu.svg" alt="close_menu_icon" class="display">
+          </button>
+      </div>
+
+      <div class="menu_mobile display">
+        <nav>
+          <div class="nav_item">
+            <button class="featuresBtn_mobile">Features
+              <img src="images/icon-arrow-down.svg" alt="icon-arrow-down" class="features_arrow_down"/>
+              <img src="images/icon-arrow-up.svg" alt="icon-arrow-up" class="features_arrow_up display"/>
+            </button>
+            <div class="features display">
+              <div class="features_dropdown dropdown">
+                <a href="/"><img src="images/icon-todo.svg" alt="icon-todo"/>Todo List</a>
+                <a href="/"><img src="images/icon-calendar.svg" alt="icon-calendar"/>Calendar</a>
+                <a href="/"><img src="images/icon-reminders.svg" alt="icon-reminders"/>Reminders</a>
+                <a href="/"><img src="images/icon-planning.svg" alt="icon-planning"/>Planning</a>
+              </div>
+            </div> 
+          </div>
+          <div class="nav_item">
+            <button class="companyBtn_mobile">Company
+              <img src="images/icon-arrow-down.svg" alt="icon-arrow-down" class="features_arrow_down"/>
+              <img src="images/icon-arrow-up.svg" alt="icon-arrow-up" class="features_arrow_up display"/>
+            </button>
+            <div class="company display">
+              <div class="company_dropdown dropdown">
+                <a href="/">History</a>
+                <a href="/">Our Team</a>
+                <a href="/">Blog</a>
+              </div>
+            </div>       
+          </div>
+
+          <div class="nav_item">
+            <a href="/">Careers</a>
+          </div>
+
+          <div class="nav_item">
+            <a href="/">About</a>
+          </div>
+        </nav>
+          
+        <div class="logReg">
+          <button class="logBtn">Login</button>
+          <button class="regBtn">Register</button>
+        </div>
+        </div>
+      </div>
+  </header>
+  
+  <!-- Hero -->
+  <main>
+    <div class="hero">
+    <section class="hero_content">
+      <h1>Make remote work</h1>
+      <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+      <button>Learn more</button>
+      <div class="clients">
+        <img src="images/client-databiz.svg" />
+        <img src="images/client-audiophile.svg" />
+        <img src="images/client-meet.svg" />
+        <img src="images/client-maker.svg" />
+      </div>
+    </section>
+
+    <section class="hero_img">
+      <div class="hero_desktop_img"><img src="images/image-hero-desktop.png"/></div>
+      <div class="hero_mobile_img"><img src="images/image-hero-mobile.png"/></div>
+    </section>
+
+    </div>
+  </main>
+  
+  <div class="overlay display"></div>
+  <script src="main.js"></script>
+</body>
+</html>
